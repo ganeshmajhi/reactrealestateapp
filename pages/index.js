@@ -1,9 +1,18 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import {FLex, Box, Buttom, Text, StylesProvider } from '@chakra-ui/react';
+import {Flex, Box, Buttom, Text, StylesProvider } from '@chakra-ui/react';
 
+const Banner =({ purpose })=>(
+<Flex flexWrap="wrap" justifyContent="center" alignitems="center" m="10">
+  {purpose}
+</Flex>
+)
 export default function Home() {
   return (
-    <h1>Hello World</h1>
+    <div>
+    <h1>Hello World !</h1>  
+    <Banner purpose={'For Rent'}/>
+    <Banner purpose={'For Sale'}/>
+    </div>
   )
 }
