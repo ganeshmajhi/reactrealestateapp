@@ -38,7 +38,7 @@ export default function Home({propertiesForSale, propertiesForRent}) {
     />
     <Flex flexWrap="wrap">
       {/* fetch the property and map over them.. */}
-
+      {propertiesForRent.map((property) => <Property property={property} key={propertyId}/>)}
       
 
     </Flex>
@@ -54,9 +54,7 @@ export default function Home({propertiesForSale, propertiesForRent}) {
     />
     <Flex flexWrap="wrap">
       {/* fetch the property and map over them. */}
-
-      
-
+      {propertiesForSale.map((property) => <Property property={property} key={propertyId}/>)}
     </Flex>
     </Box>
     
