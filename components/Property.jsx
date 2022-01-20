@@ -21,7 +21,7 @@ const Property =({ property: {coverPhoto, price, rentFrequency, rooms, title, ba
                         <Text fontWeight="bold" fontSize="lg">AED {Millify(price)}{rentFrequency && `/${rentFrequency}`}</Text>
                     </Flex>
                     <Box>
-                         <Avatar size="sm" width="65" height="65" src={agency?.logo?.url}/>
+                         <Avatar size="sm" src={agency?.logo?.url}/>
                      </Box>
                 </Flex>
                 <Flex p="2" alignItems="center" justifyContent="space-between" w="250" color="blue.400">
