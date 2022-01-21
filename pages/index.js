@@ -32,7 +32,7 @@ export default function Home({propertiesForSale, propertiesForRent}) {
         title2="Everyone"
         desc1="Explore Apartment, Villa, Homes"
         desc2="and More"
-        buttonText="Explore Renting"
+        buttonText="Explore Renting >"
         urlName="/search?purpose-for-rent"
         imageUrl="https://bayut-production.s3.eu-central-1.amazonaws.com/image/145426814/33973352624c48628e41f2ec460faba4"
 
@@ -49,7 +49,7 @@ export default function Home({propertiesForSale, propertiesForRent}) {
         title2="Everyone"
         desc1="Explore Apartment, Villa, Homes"
         desc2="and More"
-        buttonText="Explore Buying"
+        buttonText="Explore Buying >"
         urlName="/search?purpose-for-sale"
         imageUrl="https://bayut-production.s3.eu-central-1.amazonaws.com/image/145426814/33973352624c48628e41f2ec460faba4"
     />
